@@ -1,14 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dql-V5-hTT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="UtR-pG-sKK">
+            <objects>
+                <navigationController id="dql-V5-hTT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nUh-RA-hLW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7ft-X7-rc2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m3b-09-yOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3666" y="140"/>
+        </scene>
+        <!--RAC入门-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +36,122 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkM-3T-ok0">
+                                <rect key="frame" x="112" y="304" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="R8k-hl-6ip"/>
+                                    <constraint firstAttribute="width" constant="150" id="koP-ab-dvI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="RACSubject">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bhb-uA-a5P" kind="push" id="bHV-8I-Uq0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq5-On-tJr">
+                                <rect key="frame" x="112" y="174" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="2Yo-BP-6Je"/>
+                                    <constraint firstAttribute="height" constant="40" id="PDD-Ra-86v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="RACSignal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GJN-Dp-xOA" kind="push" id="39P-g6-vRI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KkM-3T-ok0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7JS-cw-rnj"/>
+                            <constraint firstItem="KkM-3T-ok0" firstAttribute="top" secondItem="Tq5-On-tJr" secondAttribute="bottom" constant="90" id="B2O-PT-XcN"/>
+                            <constraint firstItem="Tq5-On-tJr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="dju-eI-51o"/>
+                            <constraint firstItem="Tq5-On-tJr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rlA-zP-n3V"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="RAC入门" id="gG2-n6-dEi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2878" y="140"/>
+        </scene>
+        <!--RACSignal-->
+        <scene sceneID="SAm-ay-4Xb">
+            <objects>
+                <viewController id="GJN-Dp-xOA" customClass="RACSignalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u29-QX-Tgb"/>
+                        <viewControllerLayoutGuide type="bottom" id="yVQ-uu-AQF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xon-J0-CPS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="RACSignal" id="fcU-pb-jIn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoG-Iq-NZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1262" y="-137"/>
+        </scene>
+        <!--RACSubject-->
+        <scene sceneID="9cf-cY-GiZ">
+            <objects>
+                <viewController id="bhb-uA-a5P" customClass="RACSubjectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z9q-eL-djh"/>
+                        <viewControllerLayoutGuide type="bottom" id="KNL-my-yHU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iQ2-y7-qkh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ckz-mo-a3Z" customClass="RACSubjectView">
+                                <rect key="frame" x="67" y="226" width="240" height="214"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIB-Uj-8dl">
+                                        <rect key="frame" x="45" y="89.5" width="150" height="35"/>
+                                        <color key="backgroundColor" red="0.0" green="0.64705882349999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Pzg-fN-3uM"/>
+                                            <constraint firstAttribute="height" constant="35" id="bDC-eZ-XiN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="RACSubject运用">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BtnClick:" destination="Ckz-mo-a3Z" eventType="touchUpInside" id="4vD-Ps-Kxj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="S1u-rj-V9C"/>
+                                    <constraint firstItem="cIB-Uj-8dl" firstAttribute="centerY" secondItem="Ckz-mo-a3Z" secondAttribute="centerY" id="Zx8-DB-Kb3"/>
+                                    <constraint firstAttribute="height" constant="214" id="b1d-6A-Iq5"/>
+                                    <constraint firstItem="cIB-Uj-8dl" firstAttribute="centerX" secondItem="Ckz-mo-a3Z" secondAttribute="centerX" id="jqE-sw-WjF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ckz-mo-a3Z" firstAttribute="centerX" secondItem="iQ2-y7-qkh" secondAttribute="centerX" id="Lib-TO-Ln3"/>
+                            <constraint firstItem="Ckz-mo-a3Z" firstAttribute="centerY" secondItem="iQ2-y7-qkh" secondAttribute="centerY" id="wmB-9U-eCV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="RACSubject" id="cJY-Qz-QdN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1tX-uZ-usE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1263.2" y="521.28935532233891"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,10 @@
 		43AAB4FC1EC16562008CC770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AAB4FA1EC16562008CC770 /* LaunchScreen.storyboard */; };
 		43AAB5071EC16562008CC770 /* ReactiveCocoa_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5061EC16562008CC770 /* ReactiveCocoa_____Tests.m */; };
 		43AAB5121EC16562008CC770 /* ReactiveCocoa_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5111EC16562008CC770 /* ReactiveCocoa_____UITests.m */; };
+		43AAB5211EC1684D008CC770 /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5201EC1684D008CC770 /* RACSignalViewController.m */; };
+		43AAB5241EC16861008CC770 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5231EC16861008CC770 /* RACSubjectViewController.m */; };
+		43AAB5271EC16F2D008CC770 /* RACSubjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5261EC16F2D008CC770 /* RACSubjectView.m */; };
+		D7520B96E7C5492C50866FE4 /* libPods-ReactiveCocoa入门到开发.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57938B01896FF19B4D74E4AF /* libPods-ReactiveCocoa入门到开发.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		43AAB50D1EC16562008CC770 /* ReactiveCocoa入门到开发UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa入门到开发UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AAB5111EC16562008CC770 /* ReactiveCocoa_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ReactiveCocoa_____UITests.m"; sourceTree = "<group>"; };
 		43AAB5131EC16562008CC770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AAB51F1EC1684D008CC770 /* RACSignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignalViewController.h; sourceTree = "<group>"; };
+		43AAB5201EC1684D008CC770 /* RACSignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignalViewController.m; sourceTree = "<group>"; };
+		43AAB5221EC16861008CC770 /* RACSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
+		43AAB5231EC16861008CC770 /* RACSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
+		43AAB5251EC16F2D008CC770 /* RACSubjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSubjectView.h; sourceTree = "<group>"; };
+		43AAB5261EC16F2D008CC770 /* RACSubjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubjectView.m; sourceTree = "<group>"; };
+		57938B01896FF19B4D74E4AF /* libPods-ReactiveCocoa入门到开发.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa入门到开发.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6B57E54DA23529DB49FA03 /* Pods-ReactiveCocoa入门到开发.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa入门到开发.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发.debug.xcconfig"; sourceTree = "<group>"; };
+		D32048CEB1D33E511C9D8178 /* Pods-ReactiveCocoa入门到开发.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa入门到开发.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7520B96E7C5492C50866FE4 /* libPods-ReactiveCocoa入门到开发.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE07AA834D5B585FE9D58D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57938B01896FF19B4D74E4AF /* libPods-ReactiveCocoa入门到开发.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43AAB4E01EC16562008CC770 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				43AAB5051EC16562008CC770 /* ReactiveCocoa入门到开发Tests */,
 				43AAB5101EC16562008CC770 /* ReactiveCocoa入门到开发UITests */,
 				43AAB4EA1EC16562008CC770 /* Products */,
+				96BEEE8CC8CD862425610C3E /* Pods */,
+				1EE07AA834D5B585FE9D58D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +130,12 @@
 				43AAB4F21EC16562008CC770 /* ViewController.h */,
 				43AAB4F31EC16562008CC770 /* ViewController.m */,
 				43AAB4F51EC16562008CC770 /* Main.storyboard */,
+				43AAB51F1EC1684D008CC770 /* RACSignalViewController.h */,
+				43AAB5201EC1684D008CC770 /* RACSignalViewController.m */,
+				43AAB5221EC16861008CC770 /* RACSubjectViewController.h */,
+				43AAB5231EC16861008CC770 /* RACSubjectViewController.m */,
+				43AAB5251EC16F2D008CC770 /* RACSubjectView.h */,
+				43AAB5261EC16F2D008CC770 /* RACSubjectView.m */,
 				43AAB4F81EC16562008CC770 /* Assets.xcassets */,
 				43AAB4FA1EC16562008CC770 /* LaunchScreen.storyboard */,
 				43AAB4FD1EC16562008CC770 /* Info.plist */,
@@ -140,6 +170,15 @@
 			path = "ReactiveCocoa入门到开发UITests";
 			sourceTree = "<group>";
 		};
+		96BEEE8CC8CD862425610C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D6B57E54DA23529DB49FA03 /* Pods-ReactiveCocoa入门到开发.debug.xcconfig */,
+				D32048CEB1D33E511C9D8178 /* Pods-ReactiveCocoa入门到开发.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43AAB5161EC16562008CC770 /* Build configuration list for PBXNativeTarget "ReactiveCocoa入门到开发" */;
 			buildPhases = (
+				60B44B14EE7B7F5966029660 /* [CP] Check Pods Manifest.lock */,
 				43AAB4E51EC16562008CC770 /* Sources */,
 				43AAB4E61EC16562008CC770 /* Frameworks */,
 				43AAB4E71EC16562008CC770 /* Resources */,
+				60E8EFF5ADCC6997FE8B17AE /* [CP] Embed Pods Frameworks */,
+				45BBCF113DC9A50449B47D06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +310,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45BBCF113DC9A50449B47D06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B44B14EE7B7F5966029660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60E8EFF5ADCC6997FE8B17AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43AAB4E51EC16562008CC770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43AAB5271EC16F2D008CC770 /* RACSubjectView.m in Sources */,
 				43AAB4F41EC16562008CC770 /* ViewController.m in Sources */,
 				43AAB4F11EC16562008CC770 /* AppDelegate.m in Sources */,
 				43AAB4EE1EC16562008CC770 /* main.m in Sources */,
+				43AAB5241EC16861008CC770 /* RACSubjectViewController.m in Sources */,
+				43AAB5211EC1684D008CC770 /* RACSignalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +517,7 @@
 		};
 		43AAB5171EC16562008CC770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6B57E54DA23529DB49FA03 /* Pods-ReactiveCocoa入门到开发.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ReactiveCocoa入门到开发/Info.plist";
@@ -435,6 +529,7 @@
 		};
 		43AAB5181EC16562008CC770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32048CEB1D33E511C9D8178 /* Pods-ReactiveCocoa入门到开发.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ReactiveCocoa入门到开发/Info.plist";
@@ -509,6 +604,7 @@
 				43AAB5181EC16562008CC770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43AAB5191EC16562008CC770 /* Build configuration list for PBXNativeTarget "ReactiveCocoa入门到开发Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +613,7 @@
 				43AAB51B1EC16562008CC770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43AAB51C1EC16562008CC770 /* Build configuration list for PBXNativeTarget "ReactiveCocoa入门到开发UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +622,7 @@
 				43AAB51E1EC16562008CC770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
