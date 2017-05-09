@@ -148,6 +148,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="RACSubject" id="cJY-Qz-QdN"/>
+                    <connections>
+                        <outlet property="sujectView" destination="Ckz-mo-a3Z" id="nol-vJ-hZ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1tX-uZ-usE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
