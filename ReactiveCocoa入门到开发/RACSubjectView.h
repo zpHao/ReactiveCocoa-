@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "ReactiveObjC.h"
+
 @interface RACSubjectView : UIView
 @property (nonatomic, strong) RACSubject *btnClickSignal;
+
 @end
