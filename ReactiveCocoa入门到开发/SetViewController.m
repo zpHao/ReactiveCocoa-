@@ -28,20 +28,17 @@
     NSLog(@"%@",tuple[1]);
     
     RACTuple * tuple1 = [RACTuple tupleWithObjectsFromArray:@[@"apple",@"google",@123]];
-    
     NSString * str = tuple1[0];
     NSLog(@"%@",str);
     
     
     
-    //2、处理数组
+    //2、处理数组，遍历
     NSArray * array1 = @[@"apple",@"google",@123];
     
     [array1.rac_sequence.signal subscribeNext:^(id  _Nullable x) {
         NSLog(@"%@",x);
     }];
-    
-//    //遍历
 //    RACSequence * squence = array.rac_sequence; // 把数组转成集合类
 //    RACSignal * signal = squence.signal; // 把集合累当作信号(创建信号)
 //    [signal subscribeNext:^(id  _Nullable x) {
