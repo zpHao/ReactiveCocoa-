@@ -25,6 +25,10 @@
     //发送信号
 //    [self.btnClickSignal sendNext:@"按钮点击了"];//1
     [self.btnClickSignal sendNext:sender];//2
+    
+    
+    //代替代理 RACSubject
+    NSLog(@"代替代理 RACSubject");
 }
 
 

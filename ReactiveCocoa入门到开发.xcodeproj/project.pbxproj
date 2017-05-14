@@ -18,6 +18,10 @@
 		43AAB5211EC1684D008CC770 /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5201EC1684D008CC770 /* RACSignalViewController.m */; };
 		43AAB5241EC16861008CC770 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5231EC16861008CC770 /* RACSubjectViewController.m */; };
 		43AAB5271EC16F2D008CC770 /* RACSubjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAB5261EC16F2D008CC770 /* RACSubjectView.m */; };
+		43B382A51EC8377B005F145A /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B382A41EC8377B005F145A /* SetViewController.m */; };
+		43B382A71EC83A7C005F145A /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B382A61EC83A7C005F145A /* flags.plist */; };
+		43B382AA1EC83AB3005F145A /* FLAGES.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B382A91EC83AB3005F145A /* FLAGES.m */; };
+		43B382AD1EC83EEE005F145A /* ApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B382AC1EC83EEE005F145A /* ApplicationViewController.m */; };
 		D7520B96E7C5492C50866FE4 /* libPods-ReactiveCocoa入门到开发.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57938B01896FF19B4D74E4AF /* libPods-ReactiveCocoa入门到开发.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,13 @@
 		43AAB5231EC16861008CC770 /* RACSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		43AAB5251EC16F2D008CC770 /* RACSubjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSubjectView.h; sourceTree = "<group>"; };
 		43AAB5261EC16F2D008CC770 /* RACSubjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubjectView.m; sourceTree = "<group>"; };
+		43B382A31EC8377B005F145A /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		43B382A41EC8377B005F145A /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		43B382A61EC83A7C005F145A /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		43B382A81EC83AB3005F145A /* FLAGES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAGES.h; sourceTree = "<group>"; };
+		43B382A91EC83AB3005F145A /* FLAGES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAGES.m; sourceTree = "<group>"; };
+		43B382AB1EC83EEE005F145A /* ApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationViewController.h; sourceTree = "<group>"; };
+		43B382AC1EC83EEE005F145A /* ApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationViewController.m; sourceTree = "<group>"; };
 		57938B01896FF19B4D74E4AF /* libPods-ReactiveCocoa入门到开发.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa入门到开发.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6B57E54DA23529DB49FA03 /* Pods-ReactiveCocoa入门到开发.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa入门到开发.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发.debug.xcconfig"; sourceTree = "<group>"; };
 		D32048CEB1D33E511C9D8178 /* Pods-ReactiveCocoa入门到开发.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa入门到开发.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa入门到开发/Pods-ReactiveCocoa入门到开发.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +147,13 @@
 				43AAB5231EC16861008CC770 /* RACSubjectViewController.m */,
 				43AAB5251EC16F2D008CC770 /* RACSubjectView.h */,
 				43AAB5261EC16F2D008CC770 /* RACSubjectView.m */,
+				43B382A31EC8377B005F145A /* SetViewController.h */,
+				43B382A41EC8377B005F145A /* SetViewController.m */,
+				43B382A61EC83A7C005F145A /* flags.plist */,
+				43B382A81EC83AB3005F145A /* FLAGES.h */,
+				43B382A91EC83AB3005F145A /* FLAGES.m */,
+				43B382AB1EC83EEE005F145A /* ApplicationViewController.h */,
+				43B382AC1EC83EEE005F145A /* ApplicationViewController.m */,
 				43AAB4F81EC16562008CC770 /* Assets.xcassets */,
 				43AAB4FA1EC16562008CC770 /* LaunchScreen.storyboard */,
 				43AAB4FD1EC16562008CC770 /* Info.plist */,
@@ -290,6 +308,7 @@
 			files = (
 				43AAB4FC1EC16562008CC770 /* LaunchScreen.storyboard in Resources */,
 				43AAB4F91EC16562008CC770 /* Assets.xcassets in Resources */,
+				43B382A71EC83A7C005F145A /* flags.plist in Resources */,
 				43AAB4F71EC16562008CC770 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +385,10 @@
 				43AAB5271EC16F2D008CC770 /* RACSubjectView.m in Sources */,
 				43AAB4F41EC16562008CC770 /* ViewController.m in Sources */,
 				43AAB4F11EC16562008CC770 /* AppDelegate.m in Sources */,
+				43B382AD1EC83EEE005F145A /* ApplicationViewController.m in Sources */,
+				43B382A51EC8377B005F145A /* SetViewController.m in Sources */,
 				43AAB4EE1EC16562008CC770 /* main.m in Sources */,
+				43B382AA1EC83AB3005F145A /* FLAGES.m in Sources */,
 				43AAB5241EC16861008CC770 /* RACSubjectViewController.m in Sources */,
 				43AAB5211EC1684D008CC770 /* RACSignalViewController.m in Sources */,
 			);

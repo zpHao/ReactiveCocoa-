@@ -11,5 +11,5 @@
 
 @interface RACSubjectView : UIView
 @property (nonatomic, strong) RACSubject *btnClickSignal;
-
+- (IBAction)BtnClick:(id)sender;
 @end

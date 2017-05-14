@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     //RAC信号三部曲
     //1、创建信号
     //2、订阅信号
