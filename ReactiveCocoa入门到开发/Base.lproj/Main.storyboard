@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m3b-09-yOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3666" y="140"/>
+            <point key="canvasLocation" x="-4951" y="140"/>
         </scene>
         <!--RAC入门-->
         <scene sceneID="tne-QT-ifu">
@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkM-3T-ok0">
-                                <rect key="frame" x="112" y="204" width="150" height="40"/>
+                                <rect key="frame" x="112" y="184" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="R8k-hl-6ip"/>
@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq5-On-tJr">
-                                <rect key="frame" x="112" y="114" width="150" height="40"/>
+                                <rect key="frame" x="112" y="104" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="2Yo-BP-6Je"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztp-zp-De5">
-                                <rect key="frame" x="112" y="294" width="150" height="40"/>
+                                <rect key="frame" x="112" y="264" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="9JU-1m-l7s"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhJ-fV-4WE">
-                                <rect key="frame" x="112" y="384" width="150" height="40"/>
+                                <rect key="frame" x="112" y="344" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="UDN-du-cOe"/>
@@ -98,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qs3-qM-t2I">
-                                <rect key="frame" x="112" y="474" width="150" height="40"/>
+                                <rect key="frame" x="112" y="424" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="hnp-9l-MbZ"/>
@@ -112,26 +112,60 @@
                                     <segue destination="7Zo-11-SoM" kind="push" id="7lw-x2-bGE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-Ls-Gq8">
+                                <rect key="frame" x="112" y="504" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="8sZ-6w-hwA"/>
+                                    <constraint firstAttribute="height" constant="40" id="tDN-bf-4OB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="终极用法">
+                                    <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="T2J-6g-Zxy" kind="push" id="WSq-Mn-t07"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbE-5p-K72">
+                                <rect key="frame" x="112" y="584" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="3Rc-dA-p5a"/>
+                                    <constraint firstAttribute="height" constant="40" id="bYY-fa-fH7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="高级用法">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YpC-gd-QRh" kind="push" id="SBH-d1-AY2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PbE-5p-K72" firstAttribute="top" secondItem="aNX-Ls-Gq8" secondAttribute="bottom" constant="40" id="5qC-W4-7P4"/>
                             <constraint firstItem="KkM-3T-ok0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7JS-cw-rnj"/>
-                            <constraint firstItem="EhJ-fV-4WE" firstAttribute="top" secondItem="ztp-zp-De5" secondAttribute="bottom" constant="50" id="7Ui-OD-GFg"/>
+                            <constraint firstItem="EhJ-fV-4WE" firstAttribute="top" secondItem="ztp-zp-De5" secondAttribute="bottom" constant="40" id="7Ui-OD-GFg"/>
                             <constraint firstItem="Qs3-qM-t2I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9eO-Yd-2YS"/>
-                            <constraint firstItem="KkM-3T-ok0" firstAttribute="top" secondItem="Tq5-On-tJr" secondAttribute="bottom" constant="50" id="B2O-PT-XcN"/>
-                            <constraint firstItem="Qs3-qM-t2I" firstAttribute="top" secondItem="EhJ-fV-4WE" secondAttribute="bottom" constant="50" id="Cuc-RN-E87"/>
-                            <constraint firstItem="ztp-zp-De5" firstAttribute="top" secondItem="KkM-3T-ok0" secondAttribute="bottom" constant="50" id="bza-iv-Ldk"/>
-                            <constraint firstItem="Tq5-On-tJr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="dju-eI-51o"/>
+                            <constraint firstItem="KkM-3T-ok0" firstAttribute="top" secondItem="Tq5-On-tJr" secondAttribute="bottom" constant="40" id="B2O-PT-XcN"/>
+                            <constraint firstItem="Qs3-qM-t2I" firstAttribute="top" secondItem="EhJ-fV-4WE" secondAttribute="bottom" constant="40" id="Cuc-RN-E87"/>
+                            <constraint firstItem="ztp-zp-De5" firstAttribute="top" secondItem="KkM-3T-ok0" secondAttribute="bottom" constant="40" id="bza-iv-Ldk"/>
+                            <constraint firstItem="Tq5-On-tJr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="dju-eI-51o"/>
+                            <constraint firstItem="aNX-Ls-Gq8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exc-4J-dKk"/>
+                            <constraint firstItem="aNX-Ls-Gq8" firstAttribute="top" secondItem="Qs3-qM-t2I" secondAttribute="bottom" constant="40" id="fUi-Tx-Ltp"/>
                             <constraint firstItem="EhJ-fV-4WE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fi7-iR-KDI"/>
                             <constraint firstItem="ztp-zp-De5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lUv-Bs-A9B"/>
                             <constraint firstItem="Tq5-On-tJr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rlA-zP-n3V"/>
+                            <constraint firstItem="PbE-5p-K72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sap-KI-nhi"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="RAC入门" id="gG2-n6-dEi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2878" y="140"/>
+            <point key="canvasLocation" x="-4087" y="140"/>
         </scene>
         <!--RACSignal-->
         <scene sceneID="SAm-ay-4Xb">
@@ -150,7 +184,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZoG-Iq-NZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1932" y="-253"/>
+            <point key="canvasLocation" x="-2649" y="-609"/>
+        </scene>
+        <!--高级用法-->
+        <scene sceneID="Uud-D7-VUX">
+            <objects>
+                <viewController id="YpC-gd-QRh" customClass="AdvancedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Ml-0X-pjW"/>
+                        <viewControllerLayoutGuide type="bottom" id="obb-Fb-Fig"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pKO-0G-2bN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="高级用法" id="CxW-S5-HIe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adX-yX-eE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2903" y="1197"/>
         </scene>
         <!--按钮倒计时-->
         <scene sceneID="cyQ-Bs-BVW">
@@ -241,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Baj-Rw-0Yt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2778.4000000000001" y="952.17391304347836"/>
+            <point key="canvasLocation" x="-1831" y="565"/>
         </scene>
         <!--实际应用-->
         <scene sceneID="mpl-WW-Und">
@@ -290,7 +343,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hA1-bt-JCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2020" y="778.56071964017997"/>
+            <point key="canvasLocation" x="-2650" y="322"/>
+        </scene>
+        <!--终极用法-->
+        <scene sceneID="8I9-8X-fRm">
+            <objects>
+                <viewController id="T2J-6g-Zxy" customClass="LastViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nYf-Lk-L4i"/>
+                        <viewControllerLayoutGuide type="bottom" id="VTW-k2-iiD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GEh-Qf-WNr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-sH-5Is">
+                                <rect key="frame" x="139" y="193" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95d-cY-AsN">
+                                <rect key="frame" x="108" y="113" width="158" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="终极用法" id="MBc-Kh-EKs"/>
+                    <connections>
+                        <outlet property="label" destination="95d-cY-AsN" id="VIC-ty-JnG"/>
+                        <outlet property="textF" destination="dnS-sH-5Is" id="kxG-kD-IUq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PH3-DK-8IA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="1031"/>
         </scene>
         <!--集合类-->
         <scene sceneID="aXO-TU-QFa">
@@ -309,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CyK-7F-xsn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-169" y="191"/>
+            <point key="canvasLocation" x="-658" y="55"/>
         </scene>
         <!--RACSubject-->
         <scene sceneID="9cf-cY-GiZ">
@@ -364,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1tX-uZ-usE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1188" y="154"/>
+            <point key="canvasLocation" x="-1830" y="-363"/>
         </scene>
     </scenes>
 </document>

@@ -16,10 +16,7 @@
 
 @implementation CountdownViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
+
 - (IBAction)timeBtnClick:(UIButton *)sender {
     
     sender.enabled = NO;
@@ -67,12 +64,19 @@
     //滑动scrollView，timer不受影响
     
 }
+
 -(void)dealloc{
     
     //只有当倒计时结束了，才会dealloc
     NSLog(@"我走了");
     
 }
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

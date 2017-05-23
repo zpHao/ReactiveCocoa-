@@ -62,7 +62,17 @@
     NSString * filePath = [[NSBundle mainBundle]pathForResource:@"flags.plist" ofType:nil];
     NSArray * array2 = [NSArray arrayWithContentsOfFile:filePath];
     
-    //超爽用法
+    //一般思维用法
+//    NSMutableArray * muArray = [NSMutableArray array];
+//    [array.rac_sequence.signal subscribeNext:^(NSDictionary * x) {
+//        
+//        //進行字典轉模型
+//        FLAGES * flages = [FLAGES flageWithDict:x];
+//        [muArray addObject:flages];
+//    }];
+
+    
+    //升级版超爽用法
     //value 集合里面所有的元素
     
     NSArray * modelArray = [[array2.rac_sequence map:^id _Nullable(NSDictionary * value) {
@@ -71,6 +81,10 @@
     }]array];
     
     NSLog(@"%@",modelArray);
+    
+//    我们自己定义了一个可变数组，然后再给他每次接收信号的时候把它转成对象放到术组里面去。
+    
+//    其实我们上下两边做的是一样的事情，此时此刻我们用了map 唯一的不同点是，他拿到了之后需要我们把这个对象给返回出去。因为它会自动帮我们把对象存到一个集合里面去。这个集合可以自动帮我们转成数组，因为它就是一个模型数组。
     
 
 }
